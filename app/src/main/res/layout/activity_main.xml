@@ -36,6 +36,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:text="@string/label1"
+            style="@style/AppTheme"
             />
 
         <TextView
@@ -43,8 +44,11 @@
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/label1"
             android:layout_alignBaseline="@id/label1"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:shadowDx="10"
             android:textSize="18sp"
             android:text="@string/value1"
+            style="@style/DANKTHEME"
             />
 
         <TextView
